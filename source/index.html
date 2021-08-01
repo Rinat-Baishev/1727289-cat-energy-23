@@ -10,47 +10,49 @@
 
   <header class="page-header">
     <div class="page-header__wrapper">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="33" height="37"
-          alt="Логотип магазина Cat Energy">
-        <p class="page-header__logo__title">CAT ENERGY</p>
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--current">
-            <a>
-              ГЛАВНАЯ
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="catalog.html">
-              КАТАЛОГ ПРОДУКЦИИ
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="form.html">
-              ПОДБОР ПРОГРАММЫ
-            </a>
-          </li>
-        </ul>
+    </div class="page-header__logo">
+    <a class="page-header__logo-link">
+      <img class="page-header__logo-image" src="img/logo-mobile.svg" width="33" height="37"
+        alt="Логотип магазина Cat Energy">
+    </a>
+    <a class="page-header__logo-text">
+      <img src="img/logo-mobile-text.svg" width="101" height="18" alt="Cat Energy">
+    </a>
     </div>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--current">
+          <a>
+            ГЛАВНАЯ
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a href="catalog.html">
+            КАТАЛОГ ПРОДУКЦИИ
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a href="form.html">
+            ПОДБОР ПРОГРАММЫ
+          </a>
+        </li>
+      </ul>
+      </div>
     </nav>
   </header>
 
   <main class="page-main">
 
-    <h1 class="visually-hidden">Магазин питания для котов</h1>
-
-    <section class="shop-field">
-      <div class="shop-field__wrapper">
-        <h2 class="shop-field__title">Функциональное питание для котов</h2>
-        <p class="shop-field__slogan">ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
-        <a class="button" href="form.html">
-          ПОДОБРАТЬ ПРОГРАММУ
-        </a>
+    <section class="welcome">
+      <div class="welcome__wrapper">
+        <h1 class="welcome__title">Функциональное питание для котов</h2>
+          <p class="welcome__slogan">ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
+          <a class="button" href="form.html">
+            ПОДОБРАТЬ ПРОГРАММУ
+          </a>
       </div>
     </section>
 
@@ -58,20 +60,20 @@
       <h2 class="visually-hidden">Выбор программы питания</h2>
       <div class="programs__wrapper">
         <div class="programs__item">
-          <h3 class="programs__item__title">ПОХУДЕНИЕ</h3>
-          <p class="programs__item__description">Ваш кот весит больше собаки и почти утратил способность лазить по
+          <h3 class="programs__item-title">ПОХУДЕНИЕ</h3>
+          <p class="programs__item-description">Ваш кот весит больше собаки и почти утратил способность лазить по
             деревьям?
             Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-          <a class="programs__item__link" href="#">
+          <a class="programs__item-link" href="#">
             КАТАЛОГ SLIM
           </a>
         </div>
         <div class="programs__item">
-          <h3 class="programs__item__title">НАБОР МАССЫ</h3>
-          <p class="programs__item__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat
+          <h3 class="programs__item-title">НАБОР МАССЫ</h3>
+          <p class="programs__item-description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat
             Energy
             Pro поможет вашему коту нарастить необходимые мышцы!</p>
-          <a class="programs__item__link" href="#">
+          <a class="programs__item-link" href="#">
             КАТАЛОГ PRO
           </a>
         </div>
@@ -82,20 +84,20 @@
       <div class="features__wrapper">
         <h2 class="features__title">Как это работает</h2>
         <ul class="features__list">
-          <li class="features__item">
-            <p class="features__item__descriprion">Функциональное питание содержит только полезные питательные вещества.
+          <li class="features__item features__item--benefit">
+            <p class="features__item-descriprion">Функциональное питание содержит только полезные питательные вещества.
             </p>
           </li>
-          <li class="features__item">
-            <p class="features__item__descriprion">Выпускается в виде порошка, который нужно лишь залить кипятком и
+          <li class="features__item features__item--cooking">
+            <p class="features__item-descriprion">Выпускается в виде порошка, который нужно лишь залить кипятком и
               готово.</p>
           </li>
-          <li class="features__item">
-            <p class="features__item__descriprion">Замените один-два приема обычной еды на наше фунцкциональное питание.
+          <li class="features__item features__item--meal">
+            <p class="features__item-descriprion">Замените один-два приема обычной еды на наше фунцкциональное питание.
             </p>
           </li>
-          <li class="features__item">
-            <p class="features__item__descriprion">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+          <li class="features__item features__item--change">
+            <p class="features__item-descriprion">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
             </p>
           </li>
         </ul>
@@ -150,7 +152,9 @@
 
       <div class="page-footer__social social">
         <div class="social__wrapper">
-          <p class="social__title">CAT ENERGY</p>
+          <a class="page-footer__logo">
+            <img class="page-footer__logo-image" src="img/logo-footer.svg" width="128" height="24" alt="Cat Energy">
+          </a>
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--vkontakte" href="#">
@@ -178,4 +182,5 @@
     </section>
   </footer>
 </body>
+
 </html>
